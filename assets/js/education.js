@@ -5,66 +5,91 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Scrum Foundation Professional Certificate",
+    cardImage: "assets/images/education-page/Certiprof.jpg",
+    moocLink: "https://www.credly.com/badges/d5eba32a-b53e-49c4-9bcc-68092b0ece32",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Lifelong Learning",
+    cardImage: "assets/images/education-page/Certiprof.jpg",
+    moocLink: "https://www.credly.com/badges/416e66c1-32bc-465b-bb10-683e9d896162?source=linked_in_profile",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Scrum Fundamentals Certified",
+    cardImage: "assets/images/education-page/Scrumstudy.jpg",
+    moocLink: "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-AmitMalbari-893949.pdf",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Docker Essentials: A Developer Introduction",
+    cardImage: "assets/images/education-page/IBM.jpeg",
+    moocLink: "https://www.credly.com/badges/ac5331f4-94ae-478a-a8ef-c1274fda2347?source=linked_in_profile",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Postman Student Expert",
+    cardImage: "assets/images/education-page/Postman.jpg",
+    moocLink: "https://badgr.com/backpack/badges/6095613919ec4775322603cc",
+  },
+  {
+    title: "JAVA",
+    cardImage: "assets/images/education-page/HackerRank.png",
+    moocLink: "https://www.hackerrank.com/certificates/3f412726d041",
+  },
+  
+  {
+    title: "Problem Solving",
+    cardImage: "assets/images/education-page/HackerRank.png",
+    moocLink: "https://www.hackerrank.com/certificates/b4e19e3584b9",
+  },
+  {
+    title: "SQL Basic",
+    cardImage: "assets/images/education-page/HackerRank.png",
+    moocLink: "https://www.hackerrank.com/certificates/09937dc4e8da",
+  },
+  {
+    title: "SQL Intermediate",
+    cardImage: "assets/images/education-page/HackerRank.png",
+    moocLink:
+      "https://www.hackerrank.com/certificates/365fd1e759b1",
   },
   {
     title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    cardImage: "assets/images/education-page/HackerRank.png",
+    moocLink: "https://www.hackerrank.com/certificates/72d8085caa19",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "Selenium Webdriver with Docker, Jenkins & AWS",
+    cardImage: "assets/images/education-page/udemy.jpg",
+    moocLink: "https://www.udemy.com/certificate/UC-bac415ae-953b-47ed-9a6f-a4224284f61d/",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    title: "Rest API Testing",
+    cardImage: "assets/images/education-page/udemy.jpg",
     moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+      "https://www.udemy.com/certificate/UC-bdab98f0-c83a-4c79-aea8-572dcd326066/",
   },
   {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
+    title: "Rest API Testing",
+    cardImage: "assets/images/education-page/udemy.jpg",
     moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+      "https://www.udemy.com/certificate/UC-bdab98f0-c83a-4c79-aea8-572dcd326066/",
+  },
+  {
+    title: "Gradle",
+    cardImage: "assets/images/education-page/udemy.jpg",
+    moocLink:
+      "https://www.udemy.com/certificate/UC-87e3078b-34df-4d4d-8fc8-18faefbb5d0d/",
+  },
+  {
+    title: "GIT",
+    cardImage: "assets/images/education-page/udemy.jpg",
+    moocLink:
+      "https://www.udemy.com/certificate/UC-dc44d5bb-90be-4415-af09-e9b88d1b49f6/",
+  },
+  {
+    title: "Regular Epression",
+    cardImage: "assets/images/education-page/udemy.jpg",
+    moocLink:
+      "https://www.udemy.com/certificate/UC-ca1ba452-292e-4901-aaa7-ffc81c15900f/",
   },
 ];
 
