@@ -9,21 +9,21 @@ const exp = [
     cardImage: "assets/images/experience-page/Planful.png",
     place: "Planful, Hyderabad",
     time: "(Mar, 2021 - present)",
-    desp: "<li>Worked on Finance Domain.</li> <li>Involved in resolving Jenkins build failure</li> <li>Created various utility on top of automation framework.</li><li>Involved in checking network tabs to check response to reduce bug fix time.</li><li>Developed a good understanding of framework and clean code</li><li>Worked on API testing using Postman and Restassured</li>",
+    desp: "<li>Worked on Finance Domain.</li> <li>Involved in resolving Jenkins build failure.</li> <li>Created various utility on top of automation framework.</li><li>Involved in checking network tabs to check response to reduce bug fix time.</li><li>Developed a good understanding of framework and clean code.</li><li>Worked on API testing using Postman and Restassured.</li><li>Review of Pull Request (Bitbucket) and resolving conflicts.</li><li> KT and guiding to new joinee regarding automation.</li>",
   },
   {
     title: "Consultant",
     cardImage: "assets/images/experience-page/Deloitte.jpg",
     place: "Deloitte, Hyderabad",
     time: "(Mar, 2019 - Feb, 2021)",
-    desp: "<li>Tested Unemployment Insurance project for US government (Manual as well as Automation).</li><li>Involved in demo delivery to stakeholders.</li><li>Involved in checking application logs to find root cause of issue to reduce bug fix time.</li>",
+    desp: "<li>Tested Unemployment Insurance project for US government (Manual as well as Automation).</li><li>Involved in demo delivery to stakeholders.</li><li>Involved in checking application logs to find root cause of issue to reduce bug fix time.</li><li>Interaction with Onsite Clients/BA for Functional Queries raised which lead to Design change on many modules.</li><li>MOM preparation.</li>",
   },
   {
     title: "Senior Systems Engineer",
     cardImage: "assets/images/experience-page/Infosys.jpg",
     place: "Infosys, Pune",
     time: "(Nov, 2015 - Feb, 2019)",
-    desp: "<li>Worked on the various projects in automation as well as manual testing.</li><li>Created automation framework from scratch.</li><li>Involved in various types of testing viz. SIT, Adhoc, Exploratory, Blackbox, Whitebox, Smoke, Sanity, Regression.</li>",
+    desp: "<li>Worked on the various projects in automation as well as manual testing.</li><li>Created automation framework from scratch.</li><li>Involved in various types of testing viz. SIT, Adhoc, Exploratory, Blackbox, Whitebox, Smoke, Sanity, Regression.</li><li>Well acquainted with SDLC  and STLC</li><li>Defect reporting and tracking.</li><li>Have undergone various trainings and courses viz. Python, Java, DBMS SQL, Data structures, Selenium, UFT, RFT, etc.</li>",
   },
 ];
 
