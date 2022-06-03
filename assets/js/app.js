@@ -165,8 +165,8 @@ let footer = $(`
         <circle cx="4" cy="4" r="2"></circle>
       </svg>
     </a>
-
-
+	
+	
     <a class="social-button github" href="https://github.com/Amit-Malbari" target="_blank">
     <!-- SVG code for Github icon -->
     <svg class="github-icon-footer" width="45px" height="45px" viewBox="0 0 300 300">
