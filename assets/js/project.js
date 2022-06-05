@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "RestAssured Framework",
-    cardImage: "assets/images/project-page/Project2.jpg",
+    cardImage: "assets/images/project-page/Project2.JPG",
     description: "Rest API | Location API | API framework | Pojo",
     tagimg: "https://github.com/Amit-Malbari/LocationAPI",
     Previewlink: "",
