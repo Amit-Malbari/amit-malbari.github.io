@@ -4,11 +4,19 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+  
+  {
+    title: "Senior Staff QA Engineer",
+    cardImage: "assets/images/experience-page/Paloalto.jpg",
+    place: "Paloalto networks, Bengaluru",
+    time: "(Sep, 2022 - present)",
+    desp: "<li>Worked on Cybersecurity Domain.</li> <li> Verification of config in container of Kubernetes pod.</li> <li>Verification of configs stored in GCP and AWS cloud storage buckets.</li><li>Involved in Verification of generation of Cloud Firewall dynamically by user configuration.</li><li>Checking configuration sent to VPN.</li><li>Worked on API testing using Postman and Restassured.</li><li>Verification of configs pushed to Firewall (GCP VM instance or AWS ec2 instance).</li>",
+  },
   {
     title: "SDET II",
     cardImage: "assets/images/experience-page/Planful.png",
     place: "Planful, Hyderabad",
-    time: "(Mar, 2021 - present)",
+    time: "(Mar, 2021 - Sep, 2022)",
     desp: "<li>Worked on Finance Domain.</li> <li>Involved in resolving Jenkins build failure.</li> <li>Created various utility on top of automation framework.</li><li>Involved in checking network tabs to check response to reduce bug fix time.</li><li>Developed a good understanding of framework and clean code.</li><li>Worked on API testing using Postman and Restassured.</li><li>Review of Pull Request (Bitbucket) and resolving conflicts.</li><li> KT and guiding to new joinee regarding automation.</li>",
   },
   {
@@ -94,7 +102,6 @@ const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
     title: "Jenkins Slack Integration",
-    subtitle: "Participant",
     image: "assets/images/experience-page/Hackathon.jpg",
     desp: "Integrated Jenkins and Slack to send out execution report",
   },
@@ -105,13 +112,12 @@ const showCards3 = () => {
   mentor.forEach(
     ({ title, image, subtitle, desp }) =>
       (output += `  
-      <div class="blog-slider__item swiper-slide">
-        <div class="blog-slider__img">
-            <img src="${image}" alt="">
-        </div>
+      <div class="blog-slider__item swiper-slide" >
+        
+        <img src="${image}" alt="" height="250" width="65" class="card-img" style="border-radius:10px">
+        <br>
         <div class="blog-slider__content">
           <div class="blog-slider__title">${title}</div>
-          <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
           <a href="#" class="blog-slider__button">Read More</a>   
         </div>
